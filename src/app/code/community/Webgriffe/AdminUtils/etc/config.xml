@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_AdminUtils>
+            <version>1.0.0</version>
+        </Webgriffe_AdminUtils>
+    </modules>
+    <global>
+        <models>
+            <webgriffe_adminutils>
+                <class>Webgriffe_AdminUtils_Model</class>
+                <resourceModel>webgriffe_adminutils_resource</resourceModel>
+            </webgriffe_adminutils>
+            <webgriffe_adminutils_resource>
+                <class>Webgriffe_AdminUtils_Model_Resource</class>
+            </webgriffe_adminutils_resource>
+        </models>
+        <blocks>
+            <webgriffe_adminutils>
+                <class>Webgriffe_AdminUtils_Block</class>
+            </webgriffe_adminutils>
+        </blocks>
+        <helpers>
+            <webgriffe_adminutils>
+                <class>Webgriffe_AdminUtils_Helper</class>
+            </webgriffe_adminutils>
+        </helpers>
+        <resources>
+            <webgriffe_adminutils_setup>
+                <setup>
+                    <module>Webgriffe_AdminUtils</module>
+                </setup>
+            </webgriffe_adminutils_setup>
+        </resources>
+    </global>
+</config>
